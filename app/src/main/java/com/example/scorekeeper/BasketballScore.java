@@ -17,8 +17,8 @@ public class BasketballScore extends AppCompatActivity {
 
         displayForTeamA(0);
         displayForTeamB(0);
-        displayTeam1b();
-        displayTeam2b();
+//        displayTeam1b();
+//        displayTeam2b();
     }
 
     public void displayForTeamA(int score) {
@@ -26,17 +26,17 @@ public class BasketballScore extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    public void displayTeam1b(){
-        TextView team1b = (TextView) findViewById(R.id.team1b);
-        TextView edit1b = (TextView) findViewById(R.id.team1_choose_b);
-        team1b.setText(edit1b.getText());
-    }
-
-    public void displayTeam2b(){
-        TextView team2b = (TextView) findViewById(R.id.team2b);
-        TextView edit2b = (TextView) findViewById(R.id.team2_choose_b);
-        team2b.setText(edit2b.getText());
-    }
+//    public void displayTeam1b(){
+//        TextView team1b = (TextView) findViewById(R.id.team1b);
+//        TextView edit1b = (TextView) findViewById(R.id.team1_choose_b);
+//        team1b.setText(edit1b.getText());
+//    }
+//
+//    public void displayTeam2b(){
+//        TextView team2b = (TextView) findViewById(R.id.team2b);
+//        TextView edit2b = (TextView) findViewById(R.id.team2_choose_b);
+//        team2b.setText(edit2b.getText());
+//    }
 
     public void addThreeForTeamA(View view) {
         scoreTeamA = scoreTeamA +3;

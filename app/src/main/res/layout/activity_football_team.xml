@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0C0E1F"
-    tools:context=".MainActivity">
+    tools:context=".FootballTeam">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -86,6 +86,7 @@
             android:layout_marginTop="30dp"
             android:layout_gravity="center_horizontal"
             android:background="#46A1DB"
+            android:onClick="goFootball"
             android:textAllCaps="true"/>
     </LinearLayout>
 
